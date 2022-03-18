@@ -1,0 +1,173 @@
+@font-face {
+	font-family: Lora;
+	src: url('./Lora-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: Hubballi;
+	src: url('./Hubballi-Regular.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1194px;
+    height: 720px;
+    border: 1px solid black;
+    margin: 60px auto;
+    padding: 20px;
+    font-family: Hubballi;
+}
+
+.time{
+    margin: 10px auto;
+    width: 210px;
+    height: 90px;
+    font-size: 94px;
+    font-family: Hubballi;
+}
+
+value{
+    background-color: aqua;
+}
+
+.but3{
+    width: 45%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but{
+    background-color: chocolate;
+    font-size: 16px;
+    font-family: Lora;
+    width: 115px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.box-two{
+    display: flex;
+    width: 100%;
+}
+
+.mix{
+    margin: 20px;
+    width: 512px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.box{
+    position: static;
+    font-size: 1px;
+    width: 128px;
+    height: 125px;
+    background-image: url(./167482-lyublyu_zhit_nozomi-nozomi_todzio-lyublyu_zhit_shkolnyj_idol_proekt-honoka_kosaka-lyublyu_zhit-1280x720.jpg);
+}
+
+.box1{
+    background-position-y: 0px;
+}.box2{
+    background-position-y: 0px;
+    background-position-x: -129px;
+}.box3{
+    background-position-y: 0px;
+    background-position-x: -257px;
+}.box4{
+    background-position-y: 0px;
+    background-position-x: -385px;
+}.box5{
+    background-position-y: -123px;
+}.box6{
+    background-position-y: -122px;
+    background-position-x: -128px;
+}.box7{
+    background-position-y: -122px;
+    background-position-x: -255px;
+}.box8{
+    background-position-y: -122px;
+    background-position-x: -384px;
+}.box9{
+    background-position-y: -248px;
+}.box10{
+    background-position-y: -248px;
+    background-position-x: -126px;
+}.box11{
+    background-position-y: -248px;
+    background-position-x: -255px;
+}.box12{
+    background-position-y: -248px;
+    background-position-x: -383px;
+}.box13{
+    background-position-y: -372px;
+}.box14{
+    background-position-y: -375px;
+    background-position-x: -126px;
+}.box15{
+    background-position-y: -375px;
+    background-position-x: -255px;
+}.box16{
+    background-position-y: -375px;
+    background-position-x: -383px;
+}
+
+
+.box-res{
+    margin: 20px  0 20px 106px;
+    width: 512px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.modal-win, .modal-win1, .modal-win2{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    background-color: aliceblue;
+    position: relative;
+    left: 0%;
+    top: 20%;
+}
+
+.but-two{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #1e4a9f;
+    background-color: chartreuse;
+    position: relative;
+}
+
+.two, .two1, .two2{
+    background-color: brown;
+}
+
+.fon, .fon1, .fon2{
+    background-color: rgb(66 89 90 / 74%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 1;
+}
+
